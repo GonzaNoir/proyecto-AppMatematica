@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+html, .seccionContenido{
+    background-image: url('../src/img/fondoApp.jpg');
+    
+}
+
+
+#bienvenida{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 300px;
+    background-color: rgba(0, 0, 0, 0.842);
+    padding: 50px;
+}
+
+#btnComenzar{
+    font-size: 30px;
+}
+
+.titulosApp{
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-family: 'Brygada 1918', '400', serif;
+}
+
+.tituloAppMat{
+    font-family: 'Mate SC', serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 70px;
+}
+
+.subContenido{
+    text-align: center;
+    font-size: 27px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Brygada 1918';
+
+}
+
+.seccionMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+#contenidoMenu {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.842);
+    top: 60px;
+    display: none;
+}
+
+#contenido{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.842);
+    top: 60px;
+    /* padding-bottom: 30px ; */
+}
+
+.seccionMenMay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.btnAgendaStyle{
+    font-size: 25px;
+}
+
+.seccionAgenda{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+}
+
+.seccionBotonesAgenda{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+}
+
+#inputAprobado{
+    font-size: 25px;
+}
+
+#inputDesaprobado{
+    font-size: 25px;
+}
+
+.formAgregarParcial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formModificarParcial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formTabla{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnMenMay{
+    cursor: pointer;
+    font-size: 25px;
+
+}
+
+#btnCrearParcial{
+    margin: 20px;
+    font-size: 25px;
+}
+
+#btnModificar{
+    margin: 20px;
+    font-size: 25px;
+}
+
+.textoMenMay{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: 'Brygada 1918';
+
+}
+
+#btnSubMenMay{
+    font-size: 25px;
+}
+
+#inputTabla{
+    
+}
+
+.btnMenu{
+    font-size: 25px;
+}
+
+.seccionContenido{
+    /* background-color: #fff; */
+}
+
+.imgCalcu{
+    /* width: 300px; */
+}
+
+.calculadora{
+    display:block;
+    margin:0 auto;
+    padding:20px;
+    background-color:#DC4C46;
+    width:340px;
+    height:500px;
+    border-radius: 25px;
+}
+
+.calculadora td button{
+    display:block;
+    width:70px;
+    height: 90px;
+    font-size: 35px;
+}
+
+#creditos{
+    display:block;
+    padding-top:20px;
+    color:#fff;
+    text-align: center;
+    width:300px;
+}
+
+#resultado{
+    display:block;
+    text-align: center;
+    font-size: 40px;
+    /* margin-bottom: 50px; */
+    width:300px;
+    height: 100px;
+    line-height: 100px;
+    background-color:#fff;
+    /* border-radius: 25px; */
+    overflow-y: hidden;
+}
+
+.responsiveCalcu{
+    padding-top: 30px;
+}
